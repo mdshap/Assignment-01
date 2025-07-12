@@ -46,6 +46,12 @@ header{
     border-radius: 12px;
 }
 
+.button:hover {
+    background-color: #ff24de;
+    transform: scale(1.1);
+    
+}
+
 
 /* Middle Container*/
 
@@ -207,7 +213,7 @@ main section{
 .get-start{
     height: 600px;
     background-color: white;
-    margin-bottom: 700px;
+    margin-bottom: 180px;
     padding: 30px 150px  50px 150px;
     text-align: center;
     border-radius: 15px;
@@ -261,31 +267,30 @@ fieldset{
 
 .contact-form label {
   margin-bottom: 6px;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 600;
   color: #333;
 }
 
 .contact-form input {
-  width: 500px;
+  width: 450px;
   height: 70px;
   margin-bottom: 20px;
-  padding: 0 14px;
+  padding: 0px 0px 0px 30px;
   border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  font-size: 16px;
+  border-radius: 14px;
+  font-size: 20px;
   outline: none;
   background-color: #fff;
 }
 
 .contact-form textarea {
-  width: 500px;
+  width: 100%px;
   height: 135px;
   margin-bottom: 20px;
-  padding: 12px;
+  padding: 20px 0px 0px 30px;
   border: 1px solid #e0e0e0;
-  border-radius: 6px;
-  font-size: 16px;
-  outline: none;
-  resize: vertical;
+  border-radius: 14px;
+  font-size: 20px;
   background-color: #fff;
 }
