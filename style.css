@@ -1,0 +1,291 @@
+
+/*Colors Used in Text*/
+
+.col-ash{
+    color: rgb(144, 144, 144);
+}
+
+.col-blue{
+    color: #4E47FF;
+}
+
+
+/*Header Section*/
+
+header{
+    height: 698px;
+    width: 100%;
+
+    background-image: url('Hero-bg.png');
+    margin-bottom: 120px;
+}
+
+
+/*Top Container*/
+
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;   
+}
+
+
+.logo{
+    
+    font-family: 'Inter', 'Helvetica', sans-serif;font-weight:900;
+    font-size: 2.2em;   
+}
+
+.button{
+    color: white;
+    font-size: 18px;
+    background-color: #4E47FF;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 12px;
+}
+
+
+/* Middle Container*/
+
+.mid-container{
+    height: 550px;
+    margin: 0px 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mid-container div{
+    font-size: 70px;
+    font-family: 'Inter', 'Segoe UI', 'Poppins', sans-serif;font-weight: 625;
+    margin-bottom: 20px;
+}
+
+
+/*Body Area*/
+
+body{
+    font-family: 'Inter', 'Helvetica', sans-serif;
+    background-color: #f5f8ff;
+
+}
+
+main section{
+    margin: 0px 140px;
+}
+
+
+/*See it in action area */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+/*Text Container*/
+.texts{
+    margin-right: 170px;
+
+}
+
+.action h3{
+    font-size: 2.6em;
+    margin-bottom: -10px;
+}
+
+.action p{
+    color: rgb(144, 144, 144);
+    font-size: 1.7em;
+    margin-right: 50px;
+    
+}
+
+/*Image Container*/
+.action-img{
+    border-radius: 50px;  
+}
+
+/*Statistics Container*/
+
+.stat-container{
+    background-color: rgb(227, 231, 255);
+    height: 290px;
+    border-radius: 20px;
+    padding: 6px 140px;
+    margin-bottom: 150px;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+.stat-container h2{
+    text-align: center;
+    font-size: 2.4em;
+    margin-bottom: 30px;
+    
+}
+
+
+.stat-numbers{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.stat-numbers strong{
+    font-size: 5.4em;
+}
+
+.stat-numbers p{
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: -10px;
+}
+
+
+/*Review Section*/
+
+.user-opinion{
+
+}
+
+.user-opinion h1{
+    text-align: center;
+    font-size: 2.8em;
+    margin-bottom: 50px;
+}
+
+.rev-container{
+    height: 200px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 200px;
+    border: 1px solid #f2eded;
+}
+
+.reviews{
+    display: flex;
+    gap: 25px;
+}
+
+.star{
+    display: flex;
+    gap: 7px;
+    margin-bottom: 25px;
+}
+
+.rev-container p{
+    font-weight: 300;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.reviewer img{
+    border-radius: 100%;
+}
+
+.reviewer b{
+    color: #757575;
+}
+
+.reviewer div{
+    color: #b3b3b3;
+}
+
+
+.get-start{
+    height: 600px;
+    background-color: white;
+    margin-bottom: 700px;
+    padding: 30px 150px  50px 150px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.get-start h1{
+    text-align: center;
+    font-size: 3.2em;
+    margin-bottom: 20px;
+}
+
+.get-start p{
+    font-size: 1.1em;
+}
+
+.get-start img{
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 500px;
+    align-items: center;
+
+}
+
+fieldset{
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.get-in-touch h1{
+    font-size: 6em;
+}
+
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 6px;
+  font-size: 16px;
+  color: #333;
+}
+
+.contact-form input {
+  width: 500px;
+  height: 70px;
+  margin-bottom: 20px;
+  padding: 0 14px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  background-color: #fff;
+}
+
+.contact-form textarea {
+  width: 500px;
+  height: 135px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  resize: vertical;
+  background-color: #fff;
+}
