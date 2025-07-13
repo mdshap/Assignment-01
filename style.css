@@ -167,6 +167,7 @@ main section{
     margin-bottom: 50px;
 }
 
+/*Container box of reviews*/
 .rev-container{
     height: 200px;
     width: 100%;
@@ -188,6 +189,7 @@ main section{
     margin-bottom: 25px;
 }
 
+/*Reviewer's Opinion*/
 .rev-container p{
     font-weight: 300;
 }
@@ -211,6 +213,7 @@ main section{
 }
 
 
+/*Ready to focus better section*/
 .get-start{
     height: 600px;
     background-color: white;
@@ -236,6 +239,7 @@ main section{
 }
 
 
+/*Let's get in touch section*/
 .get-in-touch{
     display: flex;
     justify-content: space-between;
@@ -255,6 +259,8 @@ main section{
   align-items: center;
   padding: 50px 0;
 }
+
+/*Form*/
 
 .contact-form {
   display: flex;
@@ -280,6 +286,7 @@ main section{
   background-color: #fff;
 }
 
+/*message box*/
 .contact-form textarea {
   width: 100%px;
   height: 100px;
@@ -290,4 +297,37 @@ main section{
   font-size: 20px;
   background-color: #fff;
   font-family: 'Inter', 'Helvetica', sans-serif;
+}
+
+footer{
+    margin-bottom: 1000px;
+    background-color: white;
+    height: 440px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo{
+    text-align: center;
+    font-size: 6em;
+    font-weight: 800;
+}
+
+footer p{
+    width:500px;
+    text-align: center;
+}
+
+.items{
+    width:500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.items a{
+    color:  rgb(144, 144, 144);
+    text-decoration: none;
 }
