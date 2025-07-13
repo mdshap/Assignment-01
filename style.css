@@ -9,9 +9,23 @@
     color: #4E47FF;
 }
 
+/*Buttons Used*/
 
-/*Header Section*/
+.button{
+    color: white;
+    font-size: 18px;
+    background-color: #4E47FF;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 12px;
+}
 
+.button:hover {
+    background-color: #ff24de;
+    transform: scale(1.1);
+}
+
+/*------Header Section-------*/
 header{
     height: 698px;
     width: 100%;
@@ -21,7 +35,7 @@ header{
 }
 
 
-/*Top Container*/
+/*--Top Containe--r*/
 
 .top-container{
     display: flex;
@@ -37,23 +51,10 @@ header{
     font-size: 2.2em;   
 }
 
-.button{
-    color: white;
-    font-size: 18px;
-    background-color: #4E47FF;
-    padding: 15px 40px;
-    border: none;
-    border-radius: 12px;
-}
-
-.button:hover {
-    background-color: #ff24de;
-    transform: scale(1.1);
-    
-}
 
 
-/* Middle Container*/
+
+/*--Middle Container--*/
 
 .mid-container{
     height: 550px;
@@ -73,7 +74,7 @@ header{
 }
 
 
-/*Body Area*/
+/*-----Body Area-----*/
 
 body{
     font-family: 'Inter', 'Helvetica', sans-serif;
@@ -81,12 +82,13 @@ body{
 
 }
 
+
 main section{
     margin: 0px 140px;
 }
 
 
-/*See it in action area */
+/*--See it in action area--*/
 
 .action{
     display: flex;
@@ -118,7 +120,8 @@ main section{
     border-radius: 50px;  
 }
 
-/*Statistics Container*/
+
+/*--Statistics Container--*/
 
 .stat-container{
     background-color: rgb(227, 231, 255);
@@ -143,10 +146,12 @@ main section{
 
 }
 
+/*Upper Text of stat*/
 .stat-numbers strong{
     font-size: 5.4em;
 }
 
+/*Lower Text of stat*/
 .stat-numbers p{
     text-align: center;
     font-size: 1.4em;
@@ -154,11 +159,7 @@ main section{
 }
 
 
-/*Review Section*/
-
-.user-opinion{
-
-}
+/*--Review Section--*/
 
 .user-opinion h1{
     text-align: center;
