@@ -41,7 +41,7 @@ header{
     color: white;
     font-size: 18px;
     background-color: #4E47FF;
-    padding: 14px 40px;
+    padding: 15px 40px;
     border: none;
     border-radius: 12px;
 }
@@ -238,14 +238,9 @@ main section{
 .get-in-touch{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 500px;
+    margin-bottom: 100px;
     align-items: center;
 
-}
-
-fieldset{
-    margin: 10px 0px;
-    padding: 10px;
 }
 
 .get-in-touch h1{
@@ -286,11 +281,12 @@ fieldset{
 
 .contact-form textarea {
   width: 100%px;
-  height: 135px;
+  height: 100px;
   margin-bottom: 20px;
-  padding: 20px 0px 0px 30px;
+  padding: 20px 0px 20px 30px;
   border: 1px solid #e0e0e0;
   border-radius: 14px;
   font-size: 20px;
   background-color: #fff;
+  font-family: 'Inter', 'Helvetica', sans-serif;
 }
