@@ -35,7 +35,7 @@ header{
 }
 
 
-/*--Top Containe--r*/
+/*--Top Container--*/
 
 .top-container{
     display: flex;
@@ -290,6 +290,7 @@ main section{
 .contact-form textarea {
   width: 100%px;
   height: 100px;
+  resize: none;
   margin-bottom: 20px;
   padding: 20px 0px 20px 30px;
   border: 1px solid #e0e0e0;
@@ -299,8 +300,8 @@ main section{
   font-family: 'Inter', 'Helvetica', sans-serif;
 }
 
+/*---Footer area---*/
 footer{
-    margin-bottom: 1000px;
     background-color: white;
     height: 440px;
     text-align: center;
